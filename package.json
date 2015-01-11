@@ -15,6 +15,9 @@
     "url": "https://github.com/bendherville/konsento-api"
   },
   "keywords": [],
+  "engines": {
+    "node": "0.10.25"
+  },
   "dependencies": {
     "lodash": "2.4.1",
     "q": "1.1.2",
@@ -34,6 +37,7 @@
     "hapi": "~7.5.2"
   },
   "scripts": {
-    "test": "gulp test"
+    "test": "gulp test",
+    "start": "node lib/konsento-api.js"
   }
 }
