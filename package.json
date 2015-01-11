@@ -5,7 +5,7 @@
   "homepage": "https://github.com/bendherville/konsento-api",
   "bugs": "https://github.com/bendherville/konsento-api/issues",
   "license": "MIT",
-  "main": "lib/konsento-api.js",
+  "main": "app/server.js",
   "author": {
     "name": "Ben D'Herville",
     "email": "ben.dherville@gmail.com"
@@ -38,6 +38,7 @@
   },
   "scripts": {
     "test": "gulp test",
-    "start": "node lib/konsento-api.js"
-  }
+    "start": "node app/server.js"
+  },
+  "private": "true"
 }
