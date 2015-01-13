@@ -21,7 +21,8 @@
   "dependencies": {
     "lodash": "2.4.1",
     "q": "1.1.2",
-    "debug": "2.1.1"
+    "debug": "2.1.1",
+    "hapi": "~8.1.0"
   },
   "devDependencies": {
     "gulp": "^3.8.10",
