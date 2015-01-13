@@ -1,8 +1,8 @@
 var hapi = require('hapi');
 var routes = require('./routes');
 
-var config = {};
-var server = new hapi.Server('0.0.0.0', 8080, config);
+var server = new hapi.Server()
+server.connection({ address: '0.0.0.0', port: 8080 });
 
 for (var i = 0; i < routes.length; i++) {
   server.route(routes[i]);
